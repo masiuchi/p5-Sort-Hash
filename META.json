@@ -54,5 +54,16 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/masiuchi/p5-Sort-Hash/issues"
+      },
+      "homepage" : "https://github.com/masiuchi/p5-Sort-Hash",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/masiuchi/p5-Sort-Hash.git",
+         "web" : "https://github.com/masiuchi/p5-Sort-Hash"
+      }
+   },
    "version" : "0.01"
 }
