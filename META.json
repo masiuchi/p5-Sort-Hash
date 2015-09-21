@@ -1,5 +1,5 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "Sort hash.",
    "author" : [
       "Masahiro Iuchi <masahiro.iuchi@gmail.com>"
    ],
@@ -42,6 +42,8 @@
       },
       "runtime" : {
          "requires" : {
+            "Data::Validate" : "0",
+            "Tie::IxHash" : "0",
             "perl" : "5.008001"
          }
       },
