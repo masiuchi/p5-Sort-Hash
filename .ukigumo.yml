@@ -1,2 +1,3 @@
-script: docker run ukigumo -v $PWD:/work -w /work bash -c "cpanm --installdeps . && prove -lrv t"
+install: echo "Do not install"
+script: docker run -v $PWD:/work -w /work ukigumo bash -c "cpanm --installdeps . && prove -lrv t"
 
