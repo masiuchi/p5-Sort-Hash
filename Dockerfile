@@ -6,5 +6,3 @@ RUN yum -y install \
   wget
 RUN wget -O - https://cpanmin.us | perl - App::cpanminus
 
-RUN cpanm --install-deps .
-

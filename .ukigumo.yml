@@ -1,3 +1,2 @@
-install: docker build -t ukigumo .
-script: docker run ukigumo -v $PWD:/home/ukigumo -w /home/ukigumo bash -c "prove -lrv -Iextlib/lib/perl5 t"
+script: docker run ukigumo -v $PWD:/work -w /work bash -c "cpanm --installdeps . && prove -lrv t"
 
